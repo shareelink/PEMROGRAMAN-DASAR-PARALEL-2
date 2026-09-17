@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    printf("Andi berkata \"Saya pasti bisa\"\n");
+    printf("Andi berkata \"Saya Pasti Bisa\"\n");
     return 0;
 }
