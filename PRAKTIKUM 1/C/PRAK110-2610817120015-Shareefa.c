@@ -8,8 +8,8 @@ int main() {
     int keliling = a + b + c;
     int luas = (a * c) / 2;
 
-    printf("Diketahui :\nAlas = %d meter\nTinggi = %d meter\n", c, b);
-    printf("Jawab :\nJawab :\nSisi A = %d cm\nSisi B = %d cm\nSisi C = %d cm\nKeliling = %d cm\nLuas = %d cm", a, b, c, keliling, luas);
+    printf("Diketahui :\nAlas = %d meter\nTinggi = %d meter\n\n", c, b);
+    printf("Jawab :\nSisi A = %d cm\nSisi B = %d cm\nSisi C = %d cm\nKeliling = %d cm\nLuas = %d cm", a, b, c, keliling, luas);
 
     return 0;
 }
