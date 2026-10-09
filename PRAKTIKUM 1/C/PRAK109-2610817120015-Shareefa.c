@@ -6,7 +6,7 @@ int main() {
 
     printf("Jumlah pasukan yang dibawa Yu Zhong = %d\n", pasukan);
     printf("Jumlah pahlawan = %d\n", pahlawan);
-    printf("Jawaban :\nPasukan yang harus dikalahkan setiap pahlawan adalah %d pasukan\n", pasukan / pahlawan);
+    printf("Pasukan yang harus dikalahkan setiap pahlawan adalah %d pasukan\n", pasukan / pahlawan);
 
     return 0;
 }

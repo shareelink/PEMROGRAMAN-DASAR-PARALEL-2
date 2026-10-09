@@ -1,11 +1,11 @@
 a = 9
 b = 6
-x = 10
-y = 7
-hitung = ((a + b) * x / y)
+c = 10
+d = 7
+hitung = ((a + b) * c) / d
 
 print("Variabel a bernilai", a)
 print("Variabel b bernilai", b)
-print("Variabel x bernilai", x)
-print("Variabel y bernilai", y)
+print("Variabel c bernilai", c)
+print("Variabel y bernilai", d)
 print("Hasil dari a ditambah b dikali x dan dibagi y adalah", round(hitung, 2))

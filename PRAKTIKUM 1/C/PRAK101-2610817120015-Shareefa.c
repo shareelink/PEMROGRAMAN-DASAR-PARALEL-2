@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int x = 5;
-    int y = 7;
-    int z = 9;
-    int jlh = x + y + z;
+    int eks = 5;
+    int ye = 7;
+    int zet = 9;
+    int jlh = eks + ye + zet;
 
-    printf("Variabel x bernilai %d\n", x);
-    printf("Variabel y bernilai %d\n", y);
-    printf("Variabel z bernilai %d\n", z);
+    printf("Variabel x bernilai %d\n", eks);
+    printf("Variabel y bernilai %d\n", ye);
+    printf("Variabel z bernilai %d\n", zet);
     printf("Jumlah variabel tersebut adalah %d\n", jlh);
 
     return 0;

@@ -4,12 +4,19 @@
 int main() {
     int c = 5;
     int a = 12;
-    int b = (int)round(sqrt(a * a + c * c));
+    int b = round(sqrt(a*a + c*c));
     int keliling = a + b + c;
     int luas = (a * c) / 2;
 
-    printf("Diketahui :\nAlas = %d meter\nTinggi = %d meter\n\n", c, b);
-    printf("Jawab :\nSisi A = %d cm\nSisi B = %d cm\nSisi C = %d cm\nKeliling = %d cm\nLuas = %d cm", a, b, c, keliling, luas);
+    printf("Diketahui :\n");
+    printf("Alas = %d meter\n", c);
+    printf("Tinggi = %d meter\n\n", a);
+    printf("Jawab :\n");
+    printf("Sisi A = %d cm\n", a);
+    printf("Sisi B = %d cm\n", b);
+    printf("Sisi C = %d cm\n", c);
+    printf("Keliling = %d cm\n", keliling);
+    printf("Luas = %d cm\n", luas);
 
     return 0;
-}
+} 
