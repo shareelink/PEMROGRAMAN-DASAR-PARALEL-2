@@ -3,6 +3,7 @@
 
 int main() {
     int tinggi, sismir, alas, kllg, Luas;
+    
     printf("A = ");
     scanf("%d", &tinggi);
     printf("B = ");
