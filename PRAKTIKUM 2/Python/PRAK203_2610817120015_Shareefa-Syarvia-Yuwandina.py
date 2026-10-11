@@ -1,0 +1,8 @@
+ayam = float(input("A = "))
+bebek = float(input("B = "))
+iwak = float(input("I = "))
+jerapah = float(input("J = "))
+xenon = float(input("X = "))
+yolo = float(input("Y = "))  
+hasil = (ayam - bebek) * iwak / jerapah - (xenon + yolo)
+print(f"{hasil:.3f}")
